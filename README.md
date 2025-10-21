@@ -4,3 +4,5 @@ But, for now, it works.
 This specific code also makes an effort to skip any NordVPN tunnels if present, since that uses a variation of Wireguard, other VPN providers might also do the same but since NordVPN is all I have to test it against right now, that's what it's limited to.
 
 The point of this program is essentially to do what Jellyguard can't, which is disconnect the Wireguard tunnel used to connect to the Jellyfin Server, which, can result in no internet connectivity if that wg server doesn't allow access outwards.
+
+Ps. This application needs admin access, because the wireguard application needs admin access to pull down tunnels.
